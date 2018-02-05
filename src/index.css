@@ -1,0 +1,31 @@
+.movie-list {
+  list-style-type: none;
+}
+
+.movie-list-item {
+  display: inline-block;
+  width: 32.9%;
+}
+
+.movie-list-item img {
+  width: 100%;
+}
+
+.button-wrapper {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  background: white;
+  border: 2px solid black;
+  top: 200px;
+  left: 0px;
+  right: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  overflow: scroll;
+}
